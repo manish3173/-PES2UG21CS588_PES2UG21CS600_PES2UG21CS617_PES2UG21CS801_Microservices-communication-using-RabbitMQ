@@ -63,5 +63,14 @@ python producer/producer.py
 
 5. Use a tool like Postman or curl to interact with the services via their respective endpoints.
 
+## Contributing
+Feel free to submit issues and pull requests. Contributions are welcome!
+
+## Contact
+For questions or support, please contact:
+
+- **Y Manish Kumar**: [ymanishk602@gmail.com](mailto:ymanishk602@gmail.com)
+
 ## License
 This project is licensed under the MIT License.
+
