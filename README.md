@@ -42,7 +42,7 @@ You can run each service using the following bash commands:
 
 For the Stock Management Service
 ```bash
-python sm_cthree/stock_management.py &
+python sm_cthree/stock_management.py 
 ```
 For the Item Creation Service
 ```bash
@@ -58,7 +58,7 @@ For the Producer Service
 
 ```bash
 
-python producer/producer.py &
+python producer/producer.py 
 ```
 
 5. Use a tool like Postman or curl to interact with the services via their respective endpoints.
