@@ -40,17 +40,24 @@ This project implements a microservices architecture using RabbitMQ for communic
 ## Running the Services
 You can run each service using the following bash commands:
 
+For the Stock Management Service
 ```bash
-# For the Stock Management Service
 python sm_cthree/stock_management.py &
+```
+For the Item Creation Service
+```bash
+python ic_ctwo/item_creation.py 
+```
+For the Health Check Service
 
-# For the Item Creation Service
-python ic_ctwo/item_creation.py &
+```bash
 
-# For the Health Check Service
-python hc_cone/healthcheck.py &
+python hc_cone/healthcheck.py 
+```
+For the Producer Service
 
-# For the Producer Service
+```bash
+
 python producer/producer.py &
 ```
 
